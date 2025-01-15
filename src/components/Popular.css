@@ -1,0 +1,27 @@
+.popular {
+    padding: 0 1rem;
+}
+.pagination-container .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+.pagination-container .pagination li.active a {
+    background-color: #90EE90;
+}
+.pagination-container .pagination li a {
+    padding: .5rem;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-decoration: none;
+}
+.pagination-container .pagination li:first-child a {
+    border-left: 1px solid #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pagination-container .pagination li:last-child a {
+    border-right: 1px solid #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,54 @@
+.genres a,body{color:#fff}.actor-movies,.movie-actors{margin-left:0}::-webkit-scrollbar{width:15px}::-webkit-scrollbar-track{background-color:rgba(127,144,164,.2)}::-webkit-scrollbar-thumb{background-color:#90EE90;border:3px solid transparent;border-radius:3px;background-clip:content-box}::-o-scrollbar{width:15px}::-o-scrollbar-track{background-color:rgba(127,144,164,.2)}::-o-scrollbar-thumb{background-color:#90EE90;border:3px solid transparent;border-radius:3px;background-clip:content-box}::-ms-scrollbar{width:15px}::-ms-scrollbar-track{background-color:rgba(127,144,164,.2)}::-ms-scrollbar-thumb{background-color:#90EE90;border:3px solid transparent;border-radius:3px;background-clip:content-box}.genres table,.hamburger,body{background-color:#272b30}img{max-width:100%;max-height:100%}body{font-family:Quicksand,sans-serif}span{display:block;width:inherit}.carousel-indicators,.comments{display:none}.sidebar-genres-menu{padding-left:0;padding-right:0}.genres-container td{padding-top:1.5%!important;padding-bottom:1.5%!important}.hamburger{padding:0 10px;height:50px}.genres td{border-top:1px solid #fff!important}.genres tbody tr:first-child td{border-top:none!important;border-collapse:initial!important}.genres td a:hover,a.bold-text{color:#90EE90;text-decoration:none}a.bold-order-text{background-color:#90EE90!important;color:#000}ul.pagination li a{background-color:#272b30;color:#fff}ul.pagination li a:active,ul.pagination li a:hover{background-color:#90EE90}ul.pagination li:first-child a{border-left:none;border-radius:0}ul.pagination li:last-child a{border-right:none;border-radius:0}.search{margin-top:-.5%}.actor-detail-wrapper{padding: 0 1rem;}.actor-detail-wrapper,.actor-movies,.movie-actors,.movie-description,.movie-detail-wrapper{margin-top:20px;padding: 0 1rem;}.search input{background-color:#272b30!important;border-color:#90EE90!important}input.movie-search:focus{outline:0!important;box-shadow:0 0 10px #90EE90}.orders input{width:100%}.movie-wrapper,.zoom-container{margin-bottom:10px;border-radius:20px;}.movie-wrapper .movie-details{overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis;text-overflow:ellipsis;width:100%}.movie-wrapper .movie-rel-date{color:#d3d3d3}.movie-detail-wrapper .img-main{width:100%;height:100%}.movie-trailer iframe{width:100%}.movie-data{margin: 0 1.7rem 20px 1.7rem;}.movie-actors{margin-right:0}.actor-wrapper a:hover p{color:#fff;background-color:#449d44;border-color:#398439}.movie-actors img{height:17vmax}.movie-actors>div{margin-bottom:15px}.movie-actor-name{width:100%;border-radius:0;overflow:hidden}.image-sh{position:relative;float:left;width:100%;height:100%;background-position:50% 50%;background-repeat:no-repeat;background-size:cover}.actore-main-image>div{float:left;width:30%}.main-image-wrapper{margin-right:30px;margin-left:0}.flexslider{overflow:hidden}.actor-thumb{padding:0}.actor-info{padding-left:20px;margin-right:10px}.main-image{width:100%}.actor-movies .actor-movie{padding-left:0;padding-right:0}.actor-movies img{height:18vmax;width:100%}@media screen and (max-width:991.5px){.displayNone{transform:translateX(-100%)}.genres{margin-top:50px;position:absolute;top:0;left:0;width:100%;height:100%;z-index:90;transition:all .5s ease;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease}.zoom-container{margin-bottom:0}.zoom-container img{height:45vmax}.movie-list .movie-details h4{margin-top:0;padding:10px 0;border-bottom:1px solid #fff}.movie-detail-wrapper .img-main{height:44vmax}.movie-actors img{height:35vmax}}@media screen and (min-width:991.5px){.content-page{margin-left:25%}.sidebar-genres-menu{position:fixed}.movie-title,.movie-wrapper,.zoom-container{position:relative}.hamburger{display:none}.displayNone{display:block}.zoom-container{overflow:hidden}.zoom-container img{-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0) scale(1,1);transition:all 1s ease;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;display:block;width:100%;height:24vmax}.zoom-container:hover img{opacity:.5;-webkit-transform:scale(1.25);-moz-transform:scale(1.25);-ms-transform:scale(1.25);-o-transform:scale(1.25);transform:scale(1.25)}.zoom-container h4{-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;position:absolute;top:100%;background-color:rgba(39,43,48,.7);color:#fff;width:100%;z-index:999}.zoom-container:hover h4{padding:3% 2%;top:0}.actor-movies img{opacity:.7;transition: .3s all ease;}.actor-movies img:hover{opacity:1}}@media screen and (max-width:767.5px){.zoom-container img{height:59vmax}.movie-detail-wrapper .img-main{height:94vmax;text-align:center}.movie-actors img{height:70vmax}.actor-movies img{height:59vmax}}@media screen and (max-width:450px){.movie-actors img,.zoom-container img{height:35vmax}.actor-movies img{height:50vmax}}
+#sidebar .genres .table {
+    position: fixed;
+    width: 15%;
+}
+#sidebar .genres .table > div {
+    padding: .5rem;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+#sidebar .genres .table > div:hover {
+    background-color: #000000;
+}
+#sidebar .genres .table > div > a {
+    text-decoration: none;
+}
+#sidebar .genres .table > div:hover > a {
+    color: #90EE90;
+}
+#sidebar .genres td {
+    background-color: #272b30;
+}
+.orders {
+    padding: 1.5rem .5rem;
+}
+.orders .row {
+    display: flex;
+    align-items: center;
+}
+.orders .row > div:first-child {
+    display: flex;
+    align-items: center;
+}
+.orders .row > div:nth-child(2) > input {
+    padding: .5rem;
+    border-radius: 10px;
+}
+.orders .row .pagination > li > a {
+    padding: .5rem;
+    text-decoration: none;
+    transition: .3s all ease;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+.orders .row .pagination > li:first-child > a {
+    border-left: 1px solid #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.orders .row .pagination > li:nth-child(5) > a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
